@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 50 fibonacci numbers from
- *	1 and 2, separated by comma and space
+ * main - prints the first 50 fibonacci numbers
+ *	from 1 and 2, then a comma and space
  *
- *	Return: 0
+ *Return: Always 0
  */
 
 int main(void)
@@ -23,7 +23,8 @@ int main(void)
 		if (count == 49)
 			printf("\n");
 		else
-			print(", ");
+			printf(", ");
 	}
+
 	return (0);
 }
