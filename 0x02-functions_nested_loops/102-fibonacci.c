@@ -2,9 +2,9 @@
 
 /**
  * main - prints the first 50 fibonacci numbers from
- * 	1 and 2, separated by comma and space
+ *	1 and 2, separated by comma and space
  *
- * 	return: 0
+ *	Return: 0
  */
 
 int main(void)

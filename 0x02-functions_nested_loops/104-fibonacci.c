@@ -4,7 +4,7 @@
  * main - prints the first 98 fibonacci number, from 1
  *	and 2 sparated by a comma and space
  *
- * return: 0
+ * Return: 0
 */
 
 int main(void)

@@ -2,9 +2,9 @@
 
 /**
  * main - lists all natural numbers below 1024
- * 	excluding multiples of 3 or 5
+ *	excluding multiples of 3 or 5
  *
- * 	return: 0
+ *	Return: 0
  */
 
 int main(void)

@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * mian - prints the sign of a number
+ * print_sign - prints the sign of a number
  * @n: the number of which the sign will be printed
  *
- * return: 1 if the number is greater than zero
- * 	0 if the number is zero,
- * 	-1 if the number is less than zero
+ * Return: 1 if the number is greater than zero
+ *	0 if the number is zero,
+ *	i-1 if the number is less than zero
 */
 
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar('+')'
+		_putchar('+');
 		return (1);
 	}
 	else if (n == 0)

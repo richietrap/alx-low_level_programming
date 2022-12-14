@@ -2,9 +2,9 @@
 
 /**
  * main - prints sum of even fibaonacci numbers
- * 	not more than 4000000
+ *	not more than 4000000
  *
- * return: 0
+ * Return: 0
  */
 
 int main(void)
