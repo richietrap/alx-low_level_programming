@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - entry
+ * main - entry point
  *
  * Description: prints the numbers 1 to 100
  *
