@@ -22,7 +22,7 @@ int main(void)
 		sum += password[index++];
 	}
 
-	passwprd[index] = '\0';
+	password[index] = '\0';
 
 	if (sum != 2772)
 	{
@@ -31,6 +31,14 @@ int main(void)
 		if ((sum - 2772) % 2 != 0)
 			diff_half1++;
 
+		for (index = 0; password[index]; index++)
+		{
+			if (password[index] >= (33 + diff_half1))
+			{
+				password[index] -= diff_half1;
+				break;
+			}
+		}
 		for (index = 0; password[index]; index++)
 		{
 			if (password[index] >= (33 + diff_half2))
