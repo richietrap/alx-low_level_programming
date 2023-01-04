@@ -1,5 +1,5 @@
 
-#include "main"
+#include "main.h"
 
 /**
  * check - checks if number is prime
