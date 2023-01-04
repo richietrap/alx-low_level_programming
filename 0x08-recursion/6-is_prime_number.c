@@ -21,7 +21,7 @@ int check(int a, int b)
 }
 
 /**
- * is_prime-number - confirms if number is prime
+ * is_prime_number - confirms if number is prime
  *
  * @n: number
  *
